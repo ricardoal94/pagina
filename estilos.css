@@ -1,0 +1,161 @@
+css
+body{
+    background-color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+.formulario{
+    max-width: 280px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    text-align: initial;
+}
+
+
+
+.login-input{
+    display: flex;
+    border-radius: 5px;
+    margin-left: 0;
+    min-width: 100%;
+    text-align: left;
+    border: 1px solid #878f96;
+    max-width: fit-content;
+    margin-bottom: 15px;
+    padding: 10px 0px 10px 0px;
+}
+
+.login-input > input{
+    font-size: 15px;
+    border-style: none;
+}
+
+.login-input > input:focus{
+    outline: none;
+}
+
+.lf{
+    text-align: center;
+}
+
+.container > label{
+    font-size: 20px;
+    color: #485357;
+}
+
+.bandera{
+    background-color: #27a844;
+    border-radius: 2px;
+    max-width: fit-content;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.imgb{
+    max-width: 15px;
+}
+
+.Enviar-Cancelar{
+    text-align: initial;
+}
+
+#gs{
+    display: block;
+}
+
+#cancelar{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+#aceptar{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #878f96;
+    border: 1px solid #878f96;
+}
+
+#pcc{
+    font-size: 12px;
+    color: #878f96;
+}
+
+#gus{
+    padding: 5px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: transparent;
+    color: #27a844;
+    border: 1px solid #27a844;
+}
+
+.Gustos{
+    border-radius: 5px;
+    border:  1px solid #878f96;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+.tabla{
+    border-radius: 5px;
+    border: 1px solid #878f96;
+    display: flex;
+    word-break: break-all;
+}
+
+.Gustos-div{
+    display: flex;
+    border: none;
+}
+
+.Gustos-div > input{
+    border: 1px solid #878f96;
+    padding: 10px 0px 10px 0px;
+    max-width: fit-content;
+}
+
+.tabla > td{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.tabla > tbody > tr > td{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.tabla-c > th{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.fas {
+    width: 33%;
+    color:#878f96;
+    text-align: right;
+}
+
+#tbl{
+    text-align: center;
+}
+
+#edtxt{
+    word-break: keep-all;
+}
+
+.editar{
+    color: #27a844;
+    word-break: keep-all;
+}
